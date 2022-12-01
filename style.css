@@ -23,7 +23,7 @@ body,html {
   border: .4rem  whitesmoke;
   border-radius: .5rem;
   margin: 1rem;
-  font-size: 2.rem;
+  font-size: 4.rem;
   padding: 1rem .5rem;
   transition: all .07s ease;
   width: 20rem;
@@ -41,13 +41,13 @@ body,html {
 }
 
 kbd {
-  display: block;
-  font-size: 7rem;
+  display:block;
+  font-size: 6rem;
 }
 
 .sound {
   font-size: 1.rem;
   text-transform: uppercase lowercase;
-  letter-spacing: .1rem;
+  letter-spacing: .2rem;
   color: whitesmoke;
 }

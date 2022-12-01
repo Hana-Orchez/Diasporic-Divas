@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div class="keys">
+<div class="keys">*/
     <div data-key="82" class="key">
       <kbd>R</kbd>
       <span class="sound">Rosetta Thorpe "This Train"</span>
@@ -59,7 +59,7 @@
     <div data-key="67" class="key">
       <kbd>C</kbd>
       <span class="sound">Cardi B "Up" </span>
-    </di0v>
+    </div>
     <div data-key="49" class="key">
       <kbd>1</kbd>
       <span class="sound">Megan Thee Stallion "Her" </span>
@@ -70,7 +70,7 @@
     </div>
   </div>
 
-  <audio data-key="82" src="sounds/*/Rosetta (2).wav"></audio>
+  <audio data-key="82" src="sounds/Rosetta (2).wav"></audio>
   <audio data-key="51" src="sounds/Ruth.wav"></audio>
   <audio data-key="52" src="sounds/BillieSolitude.wav"></audio>
   <audio data-key="53" src="sounds/Celia.wav"></audio>
@@ -93,7 +93,7 @@
 function removeTransition(e){
   if(e.propertyName !== 'transform') return; //skip if its not a transform
   e.target.classList.remove('playing');
-}
+
 
 
 function playSound(e){
@@ -112,6 +112,6 @@ const keys = Array.from(document.querySelectorAll('.key'));
   window.addEventListener('keydown',playSound);
 </script>
 
-
+}
 </body>
-0</html>
+</html>4
