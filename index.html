@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div class="keys">
+<div class="keys">*/
     <div data-key="82" class="key">
       <kbd>R</kbd>
       <span class="sound">Rosetta Thorpe "This Train"</span>
@@ -90,10 +90,10 @@
   
   
   
-function removeTransition(e){
+function removeTransition(e)
   if(e.propertyName !== 'transform') return; //skip if its not a transform
   e.target.classList.remove('playing');
-}
+
 
 
 function playSound(e){
